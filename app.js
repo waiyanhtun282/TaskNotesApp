@@ -67,6 +67,7 @@ yargs.command({
   handler() {
      notes.listsNotes();
   },
-});
+  
+})
+yargs.parse();
 
-console.log(yargs.argv);
